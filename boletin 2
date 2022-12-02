@@ -1,0 +1,89 @@
+
+sueldo_bruto = int(input("digame su sueldo bruto"))
+sueldo_neto = int(input("tambien su sueldo neto"))
+
+print(sueldo_bruto * 0.22 == sueldo_neto)
+
+
+
+dia = int(input("¿Qué día es hoy?:"))    
+print(1 < dia < 31)
+
+
+
+n1 = int(input("Dame un numero ma nigga:"))
+n2 = int(input("No tengo suficiente con uno, dame otro:"))
+
+if (n1 % 3) == 0 and (n2 % 3) == 0:
+    True
+else:
+    False
+
+
+nota = int(input("introduzca su nota: "))
+
+print(nota >=  5)
+
+
+
+nota1=int(input("primera nota:"))
+nota2=int(input("segunda nota:"))
+nota3=int(input("tercera nota:"))
+
+print(((nota1 + nota2 + nota3)/3) >= 5)
+
+
+
+
+nt1=int(input("introduzca nota:"))
+nt2=int(input("introduzca nota:"))
+nt3=int(input("introduzca nota:"))
+
+print(not(nt1 or nt2 or nt3) <5)
+
+
+
+
+saldo= int(input("introduzca su saldo: "))
+descubierto=int(input("Pongs su descubierto: "))
+
+print(not(saldo < 1000 or descubierto >= 5))
+
+
+
+
+asignaturasCurso= int(input("Y cuantas asig tienes?: "))
+asignaturasAprovadas=int(input("cuantas aprovaste??: "))
+
+print(not(asignaturasAprovadas <= (asignaturasCurso * 0.3)))
+
+
+
+
+
+mes=int(input("how many meses hay in 1 year :"))
+dia=int(input("y cuantos dias?:"))
+
+print(mes== 12 and dia== 365)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
